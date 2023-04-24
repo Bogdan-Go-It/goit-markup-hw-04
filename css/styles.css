@@ -261,6 +261,21 @@ button {
 
   letter-spacing: 0.02em;
 }
+/* ---------------------------------DESCRIPTION ICON----------------------- */
+.description-icon-container {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f4f4fd;
+  border-radius: 4px;
+
+  margin-bottom: 8px;
+}
+.description-icon {
+}
 /*  =================================DEMO===============================================*/
 .demo {
   padding-bottom: 120px;
@@ -336,7 +351,38 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  margin-bottom: 8px;
 }
+/* --------------------------------------TEAM SOCIAL--------------------------- */
+.socials-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.list {
+}
+.socials-item {
+}
+.social-linc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+
+  background-color: var(--color-iris);
+  border-radius: 50%;
+}
+.social-linc:hover,
+.social-linc:focus {
+  background-color: var(--color-ocean);
+}
+.linc {
+}
+.socials-icon {
+}
+
 /* ===============================FOOTER=============================================== */
 .footer {
   padding-top: 100px;
