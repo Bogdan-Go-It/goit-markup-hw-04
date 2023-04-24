@@ -404,7 +404,7 @@ button {
 }
 /* -------------------------------CUSTOMERS---------------------------------------------- */
 .customer {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .costomers-container {
@@ -414,13 +414,13 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
 
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .customers-list {
   display: flex;
@@ -436,9 +436,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
-  height: 88px;
-  fill: var(--color-light-slate);
+  width: 100%;
+  height: 100%;
+  color: var(--color-light-slate);
 
   background-color: #ffffff;
   border-radius: 4px;
@@ -446,13 +446,14 @@ button {
 }
 .customers-linc:hover,
 .customers-linc:focus {
-  fill: var(--color-ocean);
+  color: var(--color-ocean);
   border-radius: 4px;
   border: 1px solid var(--color-ocean);
 }
 .linc {
 }
 .customer-icon {
+  fill: currentColor;
 }
 
 /* ===============================FOOTER=============================================== */
@@ -460,7 +461,7 @@ button {
   background-color: var(--color-grey);
 }
 .footer-container-lo {
-  align-items: center;
+  align-items: baseline;
   display: flex;
   gap: 112px;
   padding-top: 100px;
@@ -468,7 +469,7 @@ button {
 }
 .footer-container {
   width: 264px;
-  margin: 0;
+  gap: 120px;
   display: inline-block;
 }
 .footer-container-logo {
@@ -499,8 +500,8 @@ button {
 }
 .footer-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+
+  gap: 16px;
 }
 .list {
 }
@@ -523,6 +524,7 @@ button {
 }
 
 .footer-icon {
+  fill: var(--color-cloud);
 }
 
 /*=============================================================================================================
