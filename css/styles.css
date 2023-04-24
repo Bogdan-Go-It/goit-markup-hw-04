@@ -187,6 +187,7 @@ button {
 .card {
   padding: 188px 0;
   background-color: var(--color-grey);
+  background-image: ;
 }
 .container-card-head {
 }
@@ -382,27 +383,127 @@ button {
 }
 .socials-icon {
 }
+/* -------------------------------CUSTOMERS---------------------------------------------- */
+.customer {
+  padding-bottom: 120px;
+}
+.customer-head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+  padding-bottom: 72px;
+}
+.costomers-container {
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.list {
+}
+.costomers-item {
+  /* width: 168px;
+  height: 88px; */
+}
+.customers-linc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  fill: var(--color-light-slate);
+
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid var(--color-light-slate);
+}
+.customers-linc:hover,
+.customers-linc:focus {
+  fill: var(--color-ocean);
+  border-radius: 4px;
+  border: 1px solid var(--color-ocean);
+}
+.linc {
+}
+.customer-icon {
+}
 
 /* ===============================FOOTER=============================================== */
 .footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
   background-color: var(--color-grey);
 }
+.footer-container-lo {
+  align-items: center;
+  display: flex;
+  gap: 112px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .footer-container {
+  width: 264px;
+  margin: 0;
+  display: inline-block;
 }
 .footer-container-logo {
-  display: inline-block;
   margin-bottom: 16px;
 }
 .studio-footer {
-  display: inline-block;
+  /* display: inline-block; */
   color: var(--color-cloud);
 }
 
 .footer-uppertitle {
   width: 264px;
   color: var(--color-cloud);
+}
+.footer-container-social {
+  height: 80px;
+}
+.footer-head {
+  margin-bottom: 16px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.list {
+}
+.footer-item {
+}
+.footer-linc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+
+  background-color: var(--color-iris);
+  border-radius: 50%;
+}
+.footer-linc:hover,
+.footer-linc:focus {
+  background-color: var(--color-green);
+}
+
+.footer-icon {
 }
 
 /*=============================================================================================================
